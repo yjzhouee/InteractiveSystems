@@ -1,0 +1,141 @@
+body{
+
+    background-color: #dddbfe;
+    margin: 0em 4em; 
+    padding: 4rem 2rem;
+
+}
+
+article{
+
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    box-shadow: 0 4px 8px 0 rgba(243, 231, 255, 0.2), 0 6px 20px 0 rgba(58, 54, 67, 0.19);
+
+}
+
+.sec1{
+
+margin-bottom: 100px;
+
+}
+
+
+nav {
+
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a{
+    float: right;
+
+    text-decoration: none;
+    color:#222222;
+    padding:8px;
+    font-size: 15px;
+    
+}
+
+nav a:hover{
+    padding:8px;
+    background-color: rgb(164, 163, 255);
+    border-radius: 10px;
+    color:azure;
+}
+
+input{
+    float: left;
+
+    margin-right: 3rem;
+    padding: 10px;
+    padding-right: 39px;
+
+    border-radius: 5px;
+    border-style:groove;
+    border-color: #eae9f9;
+    font-size: 11px;
+    
+}
+
+
+img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.people{
+    display:grid;
+    gap: 2rem;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.perInfo{
+    margin: 1px;
+    padding: 15px;
+    border-radius: 25px;
+    display:flex;
+    flex-direction:row;
+    background-color: rgb(246, 246, 255);
+}
+
+.faceLeft{
+    margin-top: 1rem;
+
+}
+
+.textRight{
+    margin:10px;
+    padding:10px;
+    grid-row-gap: 0px;
+
+}
+.textRight .txt{
+    text-align: left;
+    
+}
+
+.name{
+    font-size: 21px;
+    
+}
+.comp{
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.tagCate .tag{
+    padding: 0.2rem;
+    text-align: center;
+    font-size: small;
+    color:rgb(152, 147, 250);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(209, 206, 255);
+
+
+}
+
+.perInfo:hover{
+
+    border-style:solid; 
+    border-color: rgb(209, 208, 235);
+    box-shadow: 0 2px 3px 0 rgba(243, 231, 255, 0.2), 0 3px 10px 0 rgba(175, 151, 230, 0.19);
+
+}
+
+footer{
+    padding-top: 30px;
+    color: rgb(184, 184, 184);
+    font-size: smaller;
+}
