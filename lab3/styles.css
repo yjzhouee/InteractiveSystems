@@ -9,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(198, 195, 206);
 
 }
 
@@ -24,8 +25,43 @@ body{
     margin: 0 50px;
 }
 
-/* 
-layout + cool effects[like hovering] - auto adjust the width of whole boxes. 
-icons: fontawesome [resource] - get the code
-*/ 
+span{
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgb(255, 234, 0);
+    font-size: medium;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 
+.item{
+    font-size: large;
+    font-weight: 500; 
+    border-style:dotted;
+    padding: 90px 50px; 
+    margin: 0.1rem;
+    
+}
+
+.item:hover{
+    color:rgb(56, 43, 102);
+    background-image: aliceblue;
+    background-image: url(https://images.unsplash.com/photo-1505533321630-975218a5f66f?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover;
+}
+
+.itemBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(179, 228, 211);
+}
+
+#h1{
+    color:rgb(254, 248, 236);
+}
+
+#h1:hover{
+
+    color: rgb(198, 195, 206);
+
+}
