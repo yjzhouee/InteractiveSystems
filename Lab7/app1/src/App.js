@@ -18,6 +18,7 @@ function App() {
     .then( (data) => {
       console.log(data)
       setMovieResults(data.results)
+      console.log(data.results)
     }
     )
   }
